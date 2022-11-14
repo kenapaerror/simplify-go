@@ -1,10 +1,10 @@
 package middleware
 
 import (
-	"base-project/helper"
-	"base-project/model/web"
 	"net/http"
 	"os"
+	"simplify-go/helper"
+	"simplify-go/model/web"
 
 	"github.com/dgrijalva/jwt-go"
 )

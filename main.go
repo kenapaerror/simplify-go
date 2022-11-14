@@ -1,17 +1,17 @@
 package main
 
 import (
-	"base-project/app"
-	"base-project/controller"
-	"base-project/exception"
-	"base-project/helper"
-	"base-project/middleware"
-	"base-project/repository"
-	"base-project/service"
 	"fmt"
 	"log"
 	"net/http"
 	"os"
+	"simplify-go/app"
+	"simplify-go/controller"
+	"simplify-go/exception"
+	"simplify-go/helper"
+	"simplify-go/middleware"
+	"simplify-go/repository"
+	"simplify-go/service"
 
 	"github.com/go-playground/validator"
 	_ "github.com/go-sql-driver/mysql"

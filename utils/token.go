@@ -1,10 +1,10 @@
 package utils
 
 import (
-	"base-project/exception"
-	"base-project/helper"
-	"base-project/model/web"
 	"os"
+	"simplify-go/exception"
+	"simplify-go/helper"
+	"simplify-go/model/web"
 	"time"
 
 	"github.com/dgrijalva/jwt-go"

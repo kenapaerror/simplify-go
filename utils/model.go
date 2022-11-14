@@ -1,8 +1,8 @@
 package utils
 
 import (
-	"base-project/model/entity"
-	"base-project/model/web"
+	"simplify-go/model/entity"
+	"simplify-go/model/web"
 )
 
 func ToExampleResponse(example entity.Example) web.ExampleResponse {

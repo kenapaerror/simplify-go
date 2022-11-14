@@ -1,9 +1,9 @@
 package repository
 
 import (
-	"base-project/model/entity"
 	"context"
 	"database/sql"
+	"simplify-go/model/entity"
 )
 
 type ExampleRepository interface {

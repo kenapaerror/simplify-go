@@ -1,9 +1,9 @@
 package exception
 
 import (
-	"base-project/helper"
-	"base-project/model/web"
 	"net/http"
+	"simplify-go/helper"
+	"simplify-go/model/web"
 
 	"github.com/go-playground/validator"
 )

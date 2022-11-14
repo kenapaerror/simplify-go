@@ -1,10 +1,10 @@
 package controller
 
 import (
-	"base-project/helper"
-	"base-project/model/web"
-	"base-project/service"
 	"net/http"
+	"simplify-go/helper"
+	"simplify-go/model/web"
+	"simplify-go/service"
 
 	"github.com/julienschmidt/httprouter"
 )

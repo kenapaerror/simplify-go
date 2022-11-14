@@ -1,4 +1,4 @@
-module base-project
+module simplify-go
 
 go 1.19
 

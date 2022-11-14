@@ -1,11 +1,11 @@
 package repository
 
 import (
-	"base-project/helper"
-	"base-project/model/entity"
 	"context"
 	"database/sql"
 	"errors"
+	"simplify-go/helper"
+	"simplify-go/model/entity"
 )
 
 type ExampleRepositoryImpl struct{}

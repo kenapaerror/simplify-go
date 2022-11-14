@@ -1,14 +1,14 @@
 package service
 
 import (
-	"base-project/exception"
-	"base-project/helper"
-	"base-project/model/entity"
-	"base-project/model/web"
-	"base-project/repository"
-	"base-project/utils"
 	"context"
 	"database/sql"
+	"simplify-go/exception"
+	"simplify-go/helper"
+	"simplify-go/model/entity"
+	"simplify-go/model/web"
+	"simplify-go/repository"
+	"simplify-go/utils"
 
 	"github.com/go-playground/validator"
 )

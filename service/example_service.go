@@ -1,8 +1,8 @@
 package service
 
 import (
-	"base-project/model/web"
 	"context"
+	"simplify-go/model/web"
 )
 
 type ExampleService interface {
