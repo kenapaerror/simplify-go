@@ -15,7 +15,7 @@ func NewExampleRepositoryImpl() ExampleRepository {
 }
 
 func (repository *ExampleRepositoryImpl) Create(ctx context.Context, tx *sql.Tx, example entity.Example) entity.Example {
-	SQL := "INSERT INTO (id, name, email, created_at, updated_at) VALUES (?,?,?,?,?)"
+	SQL := "INSERT INTO example (id, name, email, created_at, updated_at) VALUES (?,?,?,?,?)"
 
 	_, err := tx.ExecContext(
 		ctx,
